@@ -3,7 +3,7 @@
    flex-direction: column;
    padding: 0;
    margin: 0;
-   
+   background-color: rgba(0, 0, 0, 0.329);
 }
 ul {
     text-align: left;
@@ -64,11 +64,16 @@ ul {
     opacity: 1;
     visibility: visible;
   }
-  .menu div {
-      margin: 0;
-      padding: 0;
-      background-color: #555;
-  }
-  .active{
+  
+  .active {
     color: red;
+  }
+ 
+  .menu1 {
+    background-image: url(../data/image/kub.png);
+    background-size: auto;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: right;
   }

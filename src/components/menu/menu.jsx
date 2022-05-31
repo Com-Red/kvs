@@ -32,6 +32,7 @@ class Menu extends React.Component{
                     </li>
                     <li>Contact</li>
                 </ul>
+                <div className="menu1"></div>
             </div>
         )
     }
