@@ -4,7 +4,7 @@ import {Routes, Route, Link} from 'react-router-dom';
 import Page1 from './components/page/page1';
 import Page2 from './components/page/page2';
 import Page3 from './components/page/page3';
-import Test from './components/menu/test';
+import Test from './components/page/test';
 import Footer from './components/page/footer';
 
 

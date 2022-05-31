@@ -1,7 +1,7 @@
 import React from "react";
 import './menu.css';
-import Test from "./test";
-import {Link, Outlet} from 'react-router-dom'
+import Test from "../page/test";
+import {NavLink, Outlet} from 'react-router-dom'
 
 class Menu extends React.Component{
     constructor(){
@@ -11,11 +11,12 @@ class Menu extends React.Component{
     render(){
         return(
             <div className="menu">
+                <img src="../data/image/kub.png" alt=""></img>
                 <ul>
-                    <li><Link to="/">Главная</Link></li>
-                    <li><Link to="Page2">Page2</Link></li>
-                    <li><Link to="Page3">Page3</Link></li>
-                    <li><Link to="Test">Test</Link></li>
+                    <NavLink to="/"><li>Главная</li></NavLink>
+                    <NavLink to="Page2"><li>Page2</li></NavLink>
+                    <NavLink to="Page3"><li>Page3</li></NavLink>
+                    <NavLink to="Test"><li>Test</li></NavLink>
                     <li>Классы
                         <ul>
                             <li id='pageclass11'>11 класс</li>
