@@ -1,5 +1,5 @@
 import React from "react";
-import './style.css';
+import './stylepages.css';
 
 class Page1 extends React.Component {
     render(){

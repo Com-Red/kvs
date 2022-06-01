@@ -1,0 +1,28 @@
+.footer {
+    color: aliceblue;
+    background-color: rgb(2, 1, 53);
+    text-align: center;
+    height: 50px;
+    padding: 5px;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+}
+
+.home1 {
+    height: 400px;
+    width: 60%;
+    margin: 10px;
+    border-radius: 25px;
+    background: linear-gradient(14deg, rgba(103,94,255,0.7875525210084033) 0%, rgba(9,9,121,0.7259278711484594) 35%, rgba(0,212,255,0.5242471988795518) 100%);
+}
+
+.home2 {
+    height: 400px;
+    width: 30%;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: rgba(81, 209, 241, 0.555);
+}
